@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservicios-cursos" />
         <module name="microservicios-eureka" />
         <module name="microservicios-usuarios" />
         <module name="commons-microservicios" />
@@ -16,6 +17,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="commons-microservicios" options="-parameters" />
+      <module name="microservicios-cursos" options="-parameters" />
       <module name="microservicios-eureka" options="-parameters" />
       <module name="microservicios-usuarios" options="-parameters" />
       <module name="microservicios-zuul" options="-parameters" />

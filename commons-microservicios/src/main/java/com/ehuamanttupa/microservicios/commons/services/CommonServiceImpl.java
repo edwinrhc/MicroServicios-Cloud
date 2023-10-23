@@ -27,11 +27,13 @@ public class CommonServiceImpl<E, R extends CrudRepository<E,Long>> implements C
     }
 
     @Override
+    @Transactional
     public E save(E entity) {
         return repository.save(entity);
     }
 
     @Override
+    @Transactional
     public void deleteById(Long id) {
         repository.deleteById(id);
     }
