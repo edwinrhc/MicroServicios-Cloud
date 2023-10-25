@@ -1,9 +1,7 @@
 package com.ehuamanttupa.microservicios.app.usuarios.controllers;
 
-import com.ehuamanttupa.microservicios.app.usuarios.models.entity.Alumno;
 import com.ehuamanttupa.microservicios.app.usuarios.services.AlumnoService;
 import com.ehuamanttupa.microservicios.commons.controllers.CommonController;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

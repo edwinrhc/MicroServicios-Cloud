@@ -1,4 +1,4 @@
-package com.ehuamanttupa.microservicios.app.usuarios.models.entity;
+package com.ehuamanttupa.microservicios.commons.alumnos.models.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -32,6 +32,18 @@ public class Alumno {
     @PrePersist
     public void prePersist(){
         this.createAt = new Date();
+    }
+
+
+    public boolean equals(Object obj){
+        if(this == obj){
+            return true;
+        }
+        if(!(obj instanceof  Alumno)){
+            return false;
+        }
+        Alumno a = (Alumno) obj;
+        return this.id != null && this.id.equals(a.getId());
     }
 
 }

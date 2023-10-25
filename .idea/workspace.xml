@@ -4,29 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de549a15-f262-4630-9767-6166ebd84553" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/microservicios-gateway/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+    <list default="true" id="ec8bbeae-6413-4495-91a8-4320631201cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/controllers/CursoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/models/entity/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/models/repository/CursoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/services/CursoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/services/CursoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-microservicios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons-microservicios/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-microservicios/src/main/java/com/ehuamanttupa/microservicios/commons/controllers/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-microservicios/src/main/java/com/ehuamanttupa/microservicios/commons/controllers/CommonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons-microservicios/src/main/java/com/ehuamanttupa/microservicios/commons/services/CommonServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-microservicios/src/main/java/com/ehuamanttupa/microservicios/commons/services/CommonServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-cursos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-cursos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/MicroserviciosCursosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/MicroserviciosCursosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-cursos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-cursos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicios-usuarios/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/src/main/java/com/ehuamanttupa/microservicios/app/zuul/MicroserviciosZuulApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/src/main/java/com/ehuamanttupa/microservicios/app/gateway/MicroserviciosGatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicios-zuul/src/test/java/com/ehuamanttupa/microservicios/app/zuul/MicroserviciosZuulApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-gateway/src/test/java/com/ehuamanttupa/microservicios/app/gateway/MicroserviciosZuulApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/MicroserviciosUsuariosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/MicroserviciosUsuariosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/controllers/AlumnoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/controllers/AlumnoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/models/entity/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons-alumnos/src/main/java/com/ehuamanttupa/microservicios/commons/alumnos/models/entity/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/models/repository/AlumnoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/models/repository/AlumnoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/services/AlumnoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/services/AlumnoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/services/AlumnoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicios-usuarios/src/main/java/com/ehuamanttupa/microservicios/app/usuarios/services/AlumnoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +34,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2XBHQ5msyJhF2TzbSaEtBqRrJLJ" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/microservicios-cursos/src/main/java/com/ehuamanttupa/microservicios/app/cursos/models/entity/Curso.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2XDE23qG6b36kBnaHH4jPHP7scM" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -48,17 +52,20 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/1.Desarrollo/Aplicaciones/IDE-Intellij/SVN/repository&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/1.Desarrollo/Aplicaciones/IDE-Intellij/SVN/repository",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -66,7 +73,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroserviciosUsuariosApplication">
+  <component name="RunManager" selected="Spring Boot.MicroserviciosCursosApplication">
     <configuration name="MicroserviciosCursosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="microservicios-cursos" />
@@ -104,13 +111,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de549a15-f262-4630-9767-6166ebd84553" name="Changes" comment="" />
-      <created>1698095535086</created>
+      <changelist id="ec8bbeae-6413-4495-91a8-4320631201cc" name="Changes" comment="" />
+      <created>1698155040321</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698095535086</updated>
-      <workItem from="1698095537203" duration="70000" />
-      <workItem from="1698095617860" duration="9000" />
+      <updated>1698155040321</updated>
+      <workItem from="1698155042622" duration="7037000" />
     </task>
     <servers />
   </component>

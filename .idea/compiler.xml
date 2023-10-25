@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="microservicios-cursos" />
         <module name="microservicios-eureka" />
+        <module name="commons-alumnos" />
         <module name="microservicios-usuarios" />
         <module name="commons-microservicios" />
         <module name="microservicios-zuul" />
@@ -16,6 +17,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons-alumnos" options="-parameters" />
       <module name="commons-microservicios" options="-parameters" />
       <module name="microservicios-cursos" options="-parameters" />
       <module name="microservicios-eureka" options="-parameters" />

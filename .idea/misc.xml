@@ -4,6 +4,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/commons-alumnos/pom.xml" />
         <option value="$PROJECT_DIR$/microservicios-cursos/pom.xml" />
         <option value="$PROJECT_DIR$/microservicios-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/commons-microservicios/pom.xml" />
